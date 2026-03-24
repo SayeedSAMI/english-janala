@@ -77,7 +77,7 @@
           <a class="btn btn-ghost text-xl"
             ><span class="text-lg font-bold">English</span
             ><img src="./assets/logo.png" alt="" /><span
-              class="text-lg font-bold font-bangla "
+              class="text-lg font-bold font-bangla"
               >জানালা</span
             ></a
           >
@@ -114,13 +114,17 @@
               <h1 class="text-5xl font-bold">
                 <span class="text-[#00BCFF]">English</span> is easy!
               </h1>
-              <p class="py-6 font-bangla ">
+              <p class="py-6 font-bangla">
                 আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন
                 অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে
                 নিয়ে যাবে অন্য একটি Level এ
               </p>
               <fieldset class="fieldset">
-                <input type="email" class="input" placeholder="Enter Your Name" />
+                <input
+                  type="email"
+                  class="input"
+                  placeholder="Enter Your Name"
+                />
 
                 <input type="password" class="input" placeholder="Password" />
               </fieldset>
@@ -130,5 +134,26 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <!-- Let's Learn Vocabularies section  -->
+      <section class="Learn-Vocabularies mt-52 space-y-9 mb-52">
+        <div class="learn-vocabularies-container">
+          <h1 class="text-4xl font-black text-center">
+            <span class="text-[#00BCFF]">Let's</span> Learn Vocabularies
+          </h1>
+        </div>
+        <!-- lessons-container  -->
+        <div
+          id="lessons-container"
+          class="flex flex-wrap gap-8 justify-center"
+        ></div>
+        <div
+          id="LessonsContainer"
+          class="bg-[#F8F8F8] max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 p-12"
+        ></div>
+      </section>
+    </main>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
